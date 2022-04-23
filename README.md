@@ -28,10 +28,7 @@ DataCleaning.R performs the data preparation which is then followed by the 5 ste
 * merge (10299 rows, 563 column) is created by merging S, Y and X using cbind() function  
 
 4. Then mean and standard deviation for each measurement are extracted:
-* clean_data (10299 rows, 88 columns) is created by subsetting merge, selecting only columns: subject, code and the   *measurements on the mean and standard deviation (std) for each measurement*
-
-## Uses descriptive activity names to name the activities in the data set
-* Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the  activities variable  
+* clean_data (10299 rows, 88 columns) is created by subsetting merge, selecting only columns: subject, code and the   *measurements on the mean and standard deviation (std) for each measurement* 
 
 5. The data is then appropriately named:
 * code column in clean_data renamed into activities  
