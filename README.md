@@ -1,4 +1,4 @@
-DataCleaning.R performs the data preparation which is then followed by the 5 steps required as described in the course project’s definition.
+DataCleaning.R performs the data preparation which is then followed by the 5 steps described in the course project’s requirements:
 
 1. The dataset is downloaded
 2. The different parts of the datacontained in the downloaded set are assigned to variables: 
