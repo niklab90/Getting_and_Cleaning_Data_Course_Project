@@ -41,4 +41,4 @@ DataCleaning.R performs the data preparation which is then followed by the 5 ste
 
 6. Finally, an even cleaner final dataset is created and exported
 * even_cleaner_data (180 rows, 88 columns) is created by sumarizing clean_data taking the means of each variable for each activity and each subject, after groupped by subject and activity.  
-* Export even_cleaner_data into FinalData.txt file.  
+* Export even_cleaner_data into even_cleaner_data.txt file.  
